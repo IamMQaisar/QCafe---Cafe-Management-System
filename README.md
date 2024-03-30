@@ -11,7 +11,7 @@ QCafe is a desktop application for managing operations in a cafe. It is built us
 - **Database Management**: Utilizes MS SQL Server to manage users and menu items tables.
 - **Secure Password Storage**: User passwords are hashed and salted for enhanced security.
 - **Order Management**: Options for placing orders, adding, updating, and deleting items are provided.
-- **Billing**: Ability to print bills to printer or PDF with automatic addition of DATETIME stamp.
+- **Billing**: Ability to print bills to a printer or PDF with automatic addition of DATETIME stamp.
 - **User Management**: Administrators can manage user accounts based on their roles.
 - **Access Control**: The application displays the currently logged-in user and their access role (Admin or Superadmin) on the control panel.
 
@@ -21,9 +21,10 @@ To get started with QCafe, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the project in Visual Studio.
-3. Set up the MS SQL Server database as per the provided schema.
-4. Restore the backup file provided in the `database` directory into your SQL Server instance.
-5. Compile and run the application.
+3. Add Guna.UI via NuGet Package Manager within Visual Studio.
+4. Set up the MS SQL Server database as per the provided schema.
+5. Restore the backup file provided in the `database` directory into your SQL Server instance.
+6. Compile and run the application.
 
 ## Usage
 
